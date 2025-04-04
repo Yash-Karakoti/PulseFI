@@ -48,7 +48,7 @@ PulseFi ingests live data from the Zora ecosystem (via SDK/API) and enriches it 
 ### AI Native by Design
 Unlike basic analytics dashboards, PulseFi is built around machine learning from the ground up — sentiment scoring, trend forecasting, and anomaly detection are all core features, not bolt-ons.
 
-### RealT ime Focus
+### Real Time Focus
 Every insight is streamed live. Whether you're a trader watching a breakout or a bot making market moves, PulseFi keeps up with Base in milliseconds.
 
 ### Built for Builders
