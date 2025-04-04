@@ -1,4 +1,4 @@
-# ZENITH — Your AI-Powered Onchain Copilot for Creators & Traders
+# ZENITH : Your AI Powered Onchain Copilot for Creators & Traders
 
 > **Create Smarter. Trade Smarter. Monetize Instantly.**  
 > Powered by Zora’s Coins Protocol + AI + Base chain.
