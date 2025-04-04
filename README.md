@@ -7,7 +7,7 @@
 
 ## Overview 🚀
 
-**ZENITH** is a decentralized AI-powered application that supercharges the **Zora ecosystem** for both creators and traders. It empowers users to create tokenized content, discover high-potential coins, and monetize smarter—**all in real time**.
+**ZENITH** is a decentralized AI powered application that supercharges the **Zora ecosystem** for both creators and traders. It empowers users to create tokenized content, discover high potential coins, and monetize smarter,**all in real time**.
 
 Built during **Zora WaveHack**, ZENITH combines the power of **AI** and **onchain protocols** to transform how users interact with digital content, tokens, and communities.
 
