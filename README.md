@@ -1,70 +1,78 @@
-# ZENITH : Your AI Powered Onchain Copilot for Creators & Traders
+# PulseFi
 
-> **Create Smarter. Trade Smarter. Monetize Instantly.**  
-> Powered by Zora’s Coins Protocol + AI + Base chain.
-
----
-
-## Overview 🚀
-
-**ZENITH** is a decentralized AI powered application that supercharges the **Zora ecosystem** for both creators and traders. It empowers users to create tokenized content, discover high potential coins, and monetize smarter,**all in real time**.
-
-Built during **Zora WaveHack**, ZENITH combines the power of **AI** and **onchain protocols** to transform how users interact with digital content, tokens, and communities.
+PulseFi is an AI native analytics platform designed for the Zora creator coin ecosystem. It helps traders make smarter, faster decisions by identifying emerging coin trends, analyzing sentiment, and forecasting value shifts. Built for both developers and professional onchain traders, PulseFi unlocks real time insights through a powerful API, intuitive dashboard, and smart alerting system.
 
 ---
 
-## Core Features 🎯
+## Project Idea🌐 
 
-### For Creators
+The Zora Coins Protocol enables creators to tokenize content and earn as users trade their coins. While powerful, the space is rapidly evolving — new coins appear constantly, and signal to noise ratio is high.
 
-- **AI Powered Content Generator**  
-  Create stunning images or videos in seconds using Stable Diffusion & RunwayML. Tokenize instantly via Zora SDK.
+**PulseFi addresses this challenge** by delivering real time intelligence on what’s moving, why it’s moving, and what’s likely to move next.
 
-- **Value Simulation Engine**  
-  Predict post value using historical Zora market data before minting.
+We focus on two primary user groups:
 
-- **Trend Ticker Suggestions**  
-  AI analyzes Base transaction data & social trends to suggest hot $tickers.
-
-- **Dynamic NFT Fusion**  
-  Blend holdings (e.g., $ART1 + $ART2) into new visual mashups with new token markets.
+- **Traders**, who want to spot opportunities early and manage portfolios efficiently.
+- **Developers**, who need actionable, AI enriched Zora data for their own tools, bots, and apps.
 
 ---
 
-### For Traders
+## How It Works⚙️ 
 
-- **Smart Coin Recommendations**  
-  Personalized coin discovery based on your trade history & onchain patterns.
+PulseFi ingests live data from the Zora ecosystem (via SDK/API) and enriches it through multiple AI pipelines. Here’s the breakdown:
 
-- **Sentiment Highlights**  
-  NLP analyzes captions/comments to find coins with social buzz.
+### 1. Real Time Coin Monitoring
+- Continuously listens to Base transactions related to creator coins.
+- Detects surges in volume, velocity, and creator activity.
 
-- **AI-Powered Telegram & Discord Bots**  
-  Get real-time coin alerts, trade signals, and trending tickers.
+### 2. Sentiment Analysis
+- Scrapes captions and cast content from Zora + Farcaster.
+- Uses NLP to assign sentiment and buzz scores to each coin.
 
-- **Portfolio Optimization Engine**  
-  Real-time tracking & buy/sell timing based on coin performance.
+### 3. Forecast Engine
+- Tracks historical performance and volatility for each coin.
+- Uses time series models to predict short-term momentum changes.
 
----
+### 4. Alerts & Dashboard
+- Sends real time alerts to users via Telegram, Discord, or email.
+- Offers a sleek UI dashboard for visualizing top coins, forecasts, and watchlists.
 
-## 🛠 Tech Stack
-
-| Layer         | Tools Used                                           |
-|---------------|------------------------------------------------------|
-| AI/ML         | Python, OpenAI API, HuggingFace, TensorFlow          |
-| Blockchain    | Zora Coins SDK, Base Chain                           |
-| Frontend      | React, Tailwind CSS                                  |
-| Backend       | Node.js, Express,  FastAPI                           |
-| DevOps        | Vercel                                               |
-| Data Sources  | Zora API, Base TX logs, Twitter Trends, Farcaster    |
+### 5. Developer API & Webhooks
+- Exposes insights through REST APIs and event driven webhooks.
+- Easy to integrate into trading bots, dashboards, or analytics tools.
 
 ---
 
-## 📚 Resources
+## Unique Selling Points (USP)
 
-- [Zora Coins SDK](https://docs.zora.co/coins)  
-- [Zora API Docs](https://api-sdk.zora.engineering/docs)  
-- [Base Blockchain](https://base.org)  
-- [Zora WaveHack Info](https://zora.co)
+### AI Native by Design
+Unlike basic analytics dashboards, PulseFi is built around machine learning from the ground up — sentiment scoring, trend forecasting, and anomaly detection are all core features, not bolt-ons.
+
+### RealT ime Focus
+Every insight is streamed live. Whether you're a trader watching a breakout or a bot making market moves, PulseFi keeps up with Base in milliseconds.
+
+### Built for Builders
+A clean, documented API means you can build on top of PulseFi — whether you’re creating dashboards, Discord bots, or automated trading tools.
+
+### Multi Modal Intelligence
+PulseFi doesn’t just track numbers — it analyzes text, social behavior, and historical data in combination, giving a deeper, more human like perspective on market activity.
+
+---
+
+## Example Use Cases
+
+- **Trader A** sets up alerts for coins showing positive sentiment and rapid volume spikes.
+- **Developer B** integrates PulseFi into a Telegram bot to surface trending coins hourly.
+- **Analyst C** uses the dashboard to research coins before investing, checking historical momentum and sentiment trends.
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend**: React, TailwindCSS
+- **Backend**: FastAPI, Redis, PostgreSQL, WebSockets
+- **AI Models**: NLP (Transformers for sentiment), LSTM for time series forecasting
+- **Blockchain**: Zora Coins SDK, Base chain transaction indexing
+- **Integrations**: Farcaster, Telegram, Discord
 
 ---
