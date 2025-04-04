@@ -52,11 +52,10 @@ Built during **Zora WaveHack**, ZENITH combines the power of **AI** and **onchai
 | Layer         | Tools Used                                           |
 |---------------|------------------------------------------------------|
 | AI/ML         | Python, OpenAI API, HuggingFace, TensorFlow          |
-| Blockchain    | Zora Coins SDK, Base Chain, Ethers.js                |
+| Blockchain    | Zora Coins SDK, Base Chain                           |
 | Frontend      | React, Tailwind CSS                                  |
-| Backend       | Node.js, Express, GraphQL, FastAPI                   |
-| DevOps        | Vercel, GitHub Actions, Hardhat                      |
-| Bots          | Telegram Bot API, Discord API, LangChain            |
+| Backend       | Node.js, Express,  FastAPI                           |
+| DevOps        | Vercel                                               |
 | Data Sources  | Zora API, Base TX logs, Twitter Trends, Farcaster    |
 
 ---
